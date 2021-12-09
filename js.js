@@ -1,11 +1,13 @@
 let ajouter = document.querySelector('.ajouter');
+//console.log(ajouter);
 let input = document.querySelector('.input');
+//console.log(input)
 
+ajouter.addEventListener('click', ajouterUnePersonne)
 
-
-
-function ajouterunepersonne () {
+function ajouterUnePersonne () {
     let nouveau_nom = input.value;
+
     if (localStorage.getItem('nom') == null ) {
         localStorage.setItem('nom' , '[]');
     }
@@ -25,11 +27,6 @@ function ajouterunepersonne () {
             ul.appendChild(elem);   
             
         });
-
-
     }
-
-
-
 }
 
