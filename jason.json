@@ -1,0 +1,20 @@
+{
+    "Eleve": [
+        {
+            "user_id": 1,
+            "user_name": "Toto"
+        },
+        {
+            "user_id": 2,
+            "user_name": "Tata"
+        },
+        {
+            "user_id": 3,
+            "user_name": "Titi"
+        },
+        {
+            "user_id": 4,
+            "user_name": "Tutu"
+        }
+    ]
+}
